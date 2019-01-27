@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: "codelight", "codebold";
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+    line-height: 1.5;
+    text-align: justify;
+     } 
+
+    h1 {
+        font-family: "code bold";
+        text-align: left;
+    }
+
+    h2 {
+        font-family: "code light";
+        text-align: left;
+        color: cyan
+    }
+
+    h3 {
+        font-family: "code bold";
+        text-align: right;
+        color: cyan
+    }
+
+    div.image {
+        margin: 0 auto;
+        text-align: center;
+      }
+
+
+    ul {
+        list-style-type: none;
+        font-family: "code bold";
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+      }
+      
+      li {
+        float: left;
+        border-right:1px solid rgb(0, 0, 0);
+      }
+      
+      li:last-child {
+        border-right: none;
+      }
+      
+      li a {
+        font-family: "code bold";
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+      
+      .active {
+        background-color: goldenrod;
+      }
+
